@@ -6,10 +6,9 @@ class Pessoa {
 private $Nome ;
 private $Cidade ;
 
-public function __construct($Jose, $SP)
+public function __construct($Jose, $SP)// não precisa criar um metodo
 {  $this-> Nome= $Jose;
     $this -> Cidade =$SP;
-  
 }
 
 

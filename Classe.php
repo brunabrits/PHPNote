@@ -10,7 +10,7 @@ public $Idade;
 
 // Funcionalidades e Métodos
 public function Falar () {
-    echo $this -> Nome. " de " .$this ->idade. "anos está falando <br>";
+echo $this -> Nome." de ".$this->Idade."  anos está falando <br>";
     // this é usado para buscar uma variável externa 
 } 
 
@@ -18,8 +18,7 @@ public function Falar () {
 }// fim class
 
 //Instanciando 
-$bruna = New Pessoa ();
-
+$bruna = New Pessoa();
 $bruna ->Nome ="Victor";
 $bruna ->Idade = "25";
 $bruna ->Falar();
