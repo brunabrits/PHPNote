@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 100px;
+}
+
+form{
+    padding: 20px;
+    text-align: center;
+}
+
+.botoes{
+    padding: 2px;
+}
